@@ -1,5 +1,10 @@
 # Product-Recommendation-System
-This is a Product Recommendation model based on one key product. This model can suggest similar products based on the given one product.
+This is a Product Recommendation model based on one key product. This model cluster the similar products on the basis of target product and suggest them to user
+
+## Necessary files must to be downloaded 
+The whole dataset is too big to put on github <br>
+Dataset Link: https://drive.google.com/drive/folders/1dYorJjRIUPBdxKJTJc_nVk-wa3ZnAp9m?usp=sharing
+
 
 ## About Dataset:
 Used Amazon chothing dataset in which each product/item has 19 features in the raw dataset and are about 183k in total. <br>
@@ -17,3 +22,4 @@ Used different methods for clustering the similar products
 1. Bag of Words (BoW) based product similarity on the the basis of similar tittle names
 2. TF-IDF based product similarity on the basis of similar tittle names
 3. Visual features based product similarity on the basis of similar images 
+
